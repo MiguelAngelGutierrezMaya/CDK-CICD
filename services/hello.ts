@@ -9,7 +9,7 @@ async function handler(
   _context: Context,
 ): Promise<APIGatewayProxyResult> {
   return {
-    statusCode: 400,
+    statusCode: 200,
     body: JSON.stringify({
       message: 'Hello world!',
     }),
